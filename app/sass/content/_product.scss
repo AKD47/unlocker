@@ -71,15 +71,14 @@
       display: block;
       position: relative;
       float: left;
-      width: 234px;
-      height: 246px;
+      size: 200px;
+      margin-left: calc(50% - (200px/2));
       overflow: hidden;
       @include breakpoint(max-width 1200px){
         width: 100%;
       }
       @include breakpoint(max-width 600px){
-        width: 200px;
-        height: 220px;
+        size: 200px;
         margin-left: calc(50% - (200px/2));
       }
       img{

@@ -3,7 +3,7 @@ $RobotoLight: 'Roboto Light';
 $RobotoRegular: 'Roboto Regular';
 $RobotoMedium: 'Roboto Medium';
 $RobotoBold: 'Roboto Bold';
-$Boomboom: 'Boomboom';
+$AvenirNextCyrBold: 'Avenir Next Cyr Bold';
 @font-face {
   font-family: 'Roboto Light';
   src: url('../fonts/Roboto/RobotoLight.eot') format('embedded-opentype'),
@@ -37,10 +37,10 @@ $Boomboom: 'Boomboom';
   url('../fonts/Roboto/RobotoBold.svg') format('svg');
 }
 @font-face {
-  font-family: 'Boomboom';
-  src: url('../fonts/Boomboom/boomboom.eot') format('embedded-opentype'),
-  url('../fonts/Boomboom/boomboom.woff2') format('woff2'),
-  url('../fonts/Boomboom/boomboom.woff') format('woff'),
-  url('../fonts/Boomboom/boomboom.ttf') format('truetype'),
-  url('../fonts/Boomboom/boomboom.svg') format('svg');
+  font-family: 'Avenir Next Cyr Bold';
+  src: url('../fonts/Avenir/AvenirNextCyrBold.eot') format('embedded-opentype'),
+  url('../fonts/Avenir/AvenirNextCyrBold.woff2') format('woff2'),
+  url('../fonts/Avenir/AvenirNextCyrBold.woff') format('woff'),
+  url('../fonts/Avenir/AvenirNextCyrBold.ttf') format('truetype'),
+  url('../fonts/Avenir/AvenirNextCyrBold.svg') format('svg');
 }
