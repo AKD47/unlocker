@@ -3,8 +3,11 @@
   position: relative;
   float: right;
   width: 740px;
+  @include breakpoint(max-width 1025px){
+    width: 100%;
+  }
   @include breakpoint(max-width 770px){
-    width: calc(100% - 192px);
+    width: calc(100% - 314px);
   }
   @include breakpoint(max-width 600px){
     width: 100%;

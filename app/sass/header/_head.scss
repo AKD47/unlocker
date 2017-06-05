@@ -17,7 +17,8 @@
     margin-bottom: 23px;
     font-family: $AvenirNextCyrBold;
     @include breakpoint(max-width 600px) {
-      margin-left: calc(50% - (192px / 2));
+      width: 100%;
+      margin-left: 0;
       margin-top: 10px;
       margin-bottom: 10px;
     }
