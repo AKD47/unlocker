@@ -1,41 +1,60 @@
 .equipment {
   margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 50px;
-  @include box-sizing(border-box);
   background-image: url('../img/equipment-bg.png');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  background-color: #000;
   .title {
     color: #fff;
   }
   .title:after, .title:before {
     background-color: #fff;
   }
+  &__img {
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: 60px 0;
+    @include breakpoint(max-width 600px) {
+      display: none;
+    }
+    > span {
+      display: block;
+      position: relative;
+      float: left;
+      width: 386px;
+      height: 345px;
+      margin-left: calc(50% - (386px / 2));
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
   p {
     display: block;
     position: relative;
     float: left;
     width: 50%;
-    margin-right: 50%;
-    margin-top: 38px;
-    margin-bottom: 40px;
-    color: #f2f2f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: $RobotoRegular;
     font-size: 15px;
-    font-weight: 400;
     line-height: 18px;
-    @include breakpoint(max-width 770px) {
-      width: 100%;
-      margin-right: 0;
-    }
     @include breakpoint(max-width 600px) {
       width: 100%;
-      margin-right: 0;
     }
   }
+  p:last-of-type{
+    margin-bottom: 30px;
+  }
   .call-us {
-    margin-bottom: 89px;
+    margin-bottom: 112px;
     @include breakpoint(max-width 770px) {
       margin-left: calc(50% - (320px / 2));
     }
