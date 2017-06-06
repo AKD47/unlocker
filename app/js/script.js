@@ -54,4 +54,21 @@ $(document).ready(function () {
     };
     $('#Go_Top').scrollToTop();
     /*close go to top scroll*/
+
+    $(document).on('click', '.call-us', function () {
+        event.preventDefault();
+        $('#overlay').fadeIn(400,
+            function () {
+                $('#modal-recall').css('display', 'block').animate({opacity: 1}, 200);
+            });
+    });
+    $(document).on('click', '#overlay', function () {
+        $('#modal-recall').animate({opacity: 0}, 200,
+            function () {
+                $(this).css('display', 'none');
+                $('#overlay').fadeOut(400);
+            }
+        );
+    });
+
 });
