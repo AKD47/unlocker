@@ -62,7 +62,9 @@ function artcraft_scripts() {
      * 2) путь к файлу
      */
     // для локальных стилей
-	wp_enqueue_style( 'artcraft-style', get_template_directory_uri() . '/css/style.css' );
+	wp_enqueue_style( 'unlocker-font-awersome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' );
+	wp_enqueue_style( 'unlocker-libs-style', get_template_directory_uri() . '/css/libs.min.css' );
+	wp_enqueue_style( 'unlocker-style', get_template_directory_uri() . '/css/styles.min.css' );
     // для внешних стилей
 	//wp_enqueue_style( 'artcraft-style', 'http://domain.com/style.css' );
     /*
@@ -74,7 +76,8 @@ function artcraft_scripts() {
      * 4) версия (оставляем пустые кавычки)
      * 5) подключение в футере (true = да, false = нет)
      */
-	wp_enqueue_script( 'artcraft-script', get_template_directory_uri() . '/js/script.js', [], '', true );
+	wp_enqueue_script( 'unlocker-jquary', get_template_directory_uri() . '/js/jquery-3.2.1.js', [], '', true );
+	wp_enqueue_script( 'unlocker-script', get_template_directory_uri() . '/js/script.min.js', [], '', true );
     /*
      * Добавляем возможность отправлять AJAX-запросы к скриптам
      * Аргументы:
