@@ -26,12 +26,12 @@
 
                 <p>контакты</p>
 
-                <a href="tel:+8‎0957705061"><i class="fa fa-phone" aria-hidden="true"></i> : (095) ‎770-50-61</a>
-                <a href="tel:+8‎0713477687"><i class="fa fa-phone" aria-hidden="true"></i> : (071) 347-76-87</a>
-                <a href="tel:+‎80622073311"><i class="fa fa-phone" aria-hidden="true"></i> : (062) 207-33-11</a>
+                <a href="tel:<?= fw_get_db_customizer_option('phone1');?>"><i class="fa fa-phone" aria-hidden="true"></i> : <?= fw_get_db_customizer_option('phone1');?></a>
+                <a href="tel:<?= fw_get_db_customizer_option('phone2');?>"><i class="fa fa-phone" aria-hidden="true"></i> : <?= fw_get_db_customizer_option('phone2');?></a>
+                <a href="tel:<?= fw_get_db_customizer_option('phone3');?>"><i class="fa fa-phone" aria-hidden="true"></i> : <?= fw_get_db_customizer_option('phone3');?></a>
 
 
-                <a href="mailto:example@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> : example@gmail.com</a>
+                <a href="mailto:<?= fw_get_db_customizer_option('email');?>"><i class="fa fa-envelope" aria-hidden="true"></i> : <?= fw_get_db_customizer_option('email');?></a>
 
             </div>
 
@@ -53,9 +53,9 @@
 
     <p class="modal-recall__title">Вы можете позвонить по любому, указанному внизу телефону</p>
 
-    <a class="modal-recall__number" href="tel:+8‎0957705061">(095) ‎770-50-61</a>
-    <a class="modal-recall__number" href="tel:+8‎0713477687">(071) 347-76-87</a>
-    <a class="modal-recall__number" href="tel:+‎80622073311">(062) 207-33-11</a>
+    <a class="modal-recall__number" href="tel:<?= fw_get_db_customizer_option('phone1');?>"><?= fw_get_db_customizer_option('phone1');?></a>
+    <a class="modal-recall__number" href="tel:<?= fw_get_db_customizer_option('phone2');?>"><?= fw_get_db_customizer_option('phone2');?></a>
+    <a class="modal-recall__number" href="tel:<?= fw_get_db_customizer_option('phone3');?>"><?= fw_get_db_customizer_option('phone3');?></a>
 
 </div>
 <div id="overlay"></div>
