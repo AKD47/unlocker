@@ -22,7 +22,7 @@
 
     </div>
 
-    <h3 class="title">Приемущества</h3>
+    <h3 class="title">Преимущества</h3>
 
     <p class="partnership__subtitle">Наши преимущества в партнерстве</p>
 
@@ -56,7 +56,7 @@
                     <img src="<?php bloginfo('template_directory'); ?>/img/icons/agreement-icon.png" alt="">
                 </div>
 
-                <p>Уважительное  отношение к клиенту</p>
+                <p>Уважительное отношение к клиенту</p>
 
             </div>
 
@@ -66,7 +66,7 @@
                     <img src="<?php bloginfo('template_directory'); ?>/img/icons/prize-icon.png" alt="">
                 </div>
 
-                <p>Гарантия на  все 100%</p>
+                <p>Гарантия на все 100%</p>
 
             </div>
 
